@@ -1,0 +1,1 @@
+This github repo tracks exercises done in the website: https://www.w3resource.com/html-css-exercise/
