@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hello, title</title>
+    <script>
+        function greet() {
+            const nameInput = document.getElementById("nameInput");
+            const name = nameInput.value;
+            alert(`Hello, ${name}!`);
+        }
+    </script>
+</head>
+<body>
+    <form>
+        <input type="text" autofocus autocomplete="off" placeholder="Name" id="nameInput"></input>
+        <input type="submit" value="Greet" onclick="greet()"></input>
+    </form>
+</body>
+</html>

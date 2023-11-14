@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travel reservation</title>
+</head>
+<body>
+    <h1>Travel reservation form</h1>
+    <h3>* denotes mandatory</h3>
+    Full name*: <br>
+    <input type="text" autofocus placeholder="FirstName LastName">
+    <br>
+    Email address*: <br>
+    <input type="email" autofocus placeholder="EMAIL_ADDRESS">
+    <br>
+    Select Tour Package*: <br>
+    <select name="tour_packages" id="tour_packages">
+        <option value="Andaman">Andaman</option>
+        <option value="Nicobar">Nicobar</option>
+    </select>
+    <br>
+    Arrival date*: <br>
+    <input type="date">
+    <br>
+    Number of persons*: <br>
+    <input type="number">
+    <br>
+    What would you want to avail?* <br>
+    Boarding<input type="checkbox" id="Boarding" name="avail_extra_benefits"><br>
+    Fooding<input type="checkbox" id="Fooding" name="avail_extra_benefits"><br>
+    Sight seeing<input type="checkbox" id="Sight seeing" name="avail_extra_benefits"><br>
+    Discount Coupon Code:<br>
+    <input type="password">
+    <br>
+    Terms and conditions*: <br>
+    <input type="radio" id="agree" name="agreement">I agree </input>
+    <input type="radio" id="disagree" name="agreement">I disagree </input>
+    <br>
+    <button>Complete reservation</button>
+</body>
+</html>
