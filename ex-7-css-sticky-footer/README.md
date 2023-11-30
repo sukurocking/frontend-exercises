@@ -1,0 +1,1 @@
+This exercise tracks the one mentioned in https://www.w3resource.com/html-css-exercise/footer.php

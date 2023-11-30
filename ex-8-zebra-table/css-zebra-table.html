@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Zebra Striped Table</title>
+    <style>
+        tbody > tr:nth-child(odd) {
+            background-color: lightgreen;
+        }
+        table, th, td {
+            border: 1px solid white;
+        }
+        thead {
+            background-color: lightgray;
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <thead>
+            <tr>
+                <th>Id</th>
+                <th>Name</th>
+                <th>Major</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>1001</td>
+                <td>Gopl Murthy</td>
+                <td>Physics</td>
+            </tr>
+            <tr>
+                <td>1002</td>
+                <td>Joy Sen</td>
+                <td>Economics</td>
+            </tr>
+            <tr>
+                <td>1003</td>
+                <td>Chandu Yadav</td>
+                <td>Chemistry</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>

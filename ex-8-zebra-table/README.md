@@ -1,0 +1,1 @@
+This exercise tracks the one in https://www.w3resource.com/html-css-exercise/zebra-table.php
