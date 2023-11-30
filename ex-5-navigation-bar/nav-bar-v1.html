@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Navigation Bar</title>
+    <style>
+        ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+        }
+        ul > li {
+            display: inline-block;
+            position: relative;
+        }
+        ul > li > a {
+            padding: 8px;
+            background-color: #dddddd;
+            text-decoration: none;
+            color: black;
+        }
+        ul > li > ul {
+            display: none;
+            position: absolute;
+            left: 0;
+            background-color: #dddddd;
+            min-width: 100px;
+            box-shadow: 0px 8px 16px 0px rgba(0,0,0,0,2);
+            z-index: 1;
+        }
+        ul > li:hover > ul {
+            display: block;
+            background-color: #dddddd;
+        }
+        ul > li > ul > li:hover {
+            background-color: #bfbfbf;
+        }
+        ul > li > ul > li {
+            display: block;
+            width: 100%;
+            box-sizing: border-box;
+        }
+        ul > li > ul > li > a {
+            display: block;
+            padding: 8px;
+            color: black;
+            text-decoration: none;
+            background-color: #dddddd;
+        }
+        ul > li > ul > li:hover > a {
+            background-color: #bfbfbf;
+        }
+    </style>
+</head>
+<body>
+    <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li>
+            <a href="#">Products</a>
+            <ul>
+                <li><a href="#">Engineering</a></li>
+                <li><a href="#">Telecom</a></li>
+                <li><a href="#">Energy</a></li>
+                <li><a href="#">Finance</a></li>
+                <li><a href="#">Consultancy</a></li>
+            </ul>
+        </li>
+        <li><a href="#">Services</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+</body>
+</html>
